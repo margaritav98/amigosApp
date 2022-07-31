@@ -8,3 +8,9 @@ div > img {
     height: 71px;
     margin-top: 25px;
 }
+
+.icons {
+    height: auto;
+    width: 36px;
+    margin-top: 0px;
+}
