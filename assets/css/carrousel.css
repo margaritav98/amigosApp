@@ -3,3 +3,16 @@
     height: 10px !important;
     border-radius: 50%;
 }
+
+.container-carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-control-prev-icon {
+    background: none !important;
+}
+
+.carousel-control-next-icon {
+    background: none !important;
+}

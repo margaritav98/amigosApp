@@ -46,3 +46,80 @@
     text-align: center;
     color: #FEC601;
 }
+
+.percentage-text {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: #2F6690;
+}
+
+.text-3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;    
+}
+
+.text-4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 6px;
+    width: 200px;
+}
+
+.main-container > h1 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2F6690;
+    margin-top: 55px;
+    padding: 0px 20px;
+}
+
+.main-container > p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.p-info {
+    width: 200px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #2F6690;
+}
+
+@media screen and (max-width: 736px) {
+    .main-container > p {
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (min-width: 736px) {
+    .main-container > p {
+        padding: 10px 150px;
+    }
+}

@@ -11,6 +11,22 @@
 @media screen and (max-width: 736px) {
     #footer {
         display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .information-contact {
+        justify-content: center;
+    }
+
+    .logo-footer {
+        margin-top: 40px;
+        justify-content: center;
+    }
+
+    .social-media {
+        margin-top: 40px;
+        justify-content: center;
     }
 }
 
