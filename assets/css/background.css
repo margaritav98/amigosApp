@@ -13,6 +13,10 @@
     margin-top: 25px;
 }
 
+.card-body {
+    padding: 25px 70px !important;
+}
+
 @media screen and (min-width: 736px) {
     .container-registro {
         margin-top: 10px;
