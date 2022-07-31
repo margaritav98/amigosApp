@@ -38,7 +38,7 @@
 }
 
 .text-footer {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -48,7 +48,7 @@
 }
 
 .percentage-text {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 49px;
@@ -57,7 +57,7 @@
 }
 
 .text-3 {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -67,7 +67,7 @@
 }
 
 .text-4 {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -80,7 +80,7 @@
 
 .main-container > h1 {
     text-align: center;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -90,8 +90,19 @@
     padding: 0px 20px;
 }
 
+.main-container-3 > div > h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2F6690;
+    padding: 0px 20px;
+}
+
 .main-container > p {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -103,13 +114,35 @@
 .p-info {
     width: 200px;
     text-align: center;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
     color: #2F6690;
+}
+
+.p-text-2 {
+    margin-left: 51px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
+
+.inicio-sesion {
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #344054;
 }
 
 @media screen and (max-width: 736px) {
@@ -122,4 +155,24 @@
     .main-container > p {
         padding: 10px 150px;
     }
+}
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #2F6690;
+}
+
+.card-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
 }
