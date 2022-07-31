@@ -1,0 +1,10 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+div > img {
+    height: 71px;
+    margin-top: 25px;
+}
