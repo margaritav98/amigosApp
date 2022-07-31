@@ -2,6 +2,10 @@
     margin-top: 0px;
 }
 
+.card{
+        border-radius: 22px;
+}
+
 @media screen and (min-width: 736px) {
     .container-registro {
         margin-top: 10px;
