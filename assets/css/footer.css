@@ -24,3 +24,12 @@
 .logo-footer {
     text-align: center;
 }
+
+.icon-footer {
+    margin-top: 0px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+}
