@@ -71,7 +71,7 @@ body .progress_inner__status .box_string, body .progress_inner__status .box_tag,
   position: absolute;
   left: 0;
   right: 0;
-  top: 230%;
+  top: 210%;
   transform: translateY(-50%);
   margin: auto;
 }
