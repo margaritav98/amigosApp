@@ -46,14 +46,14 @@
             </nav>
         </section>
 
-        <div class="container-registro">
+        <div class="container-registro-2" style="height: 120vh;">
             <div>
-                <div class="card">
+                <div class="card my-5" style="margin-left: 10px important;">
                     <div class="card-body">
                         <h5 class="card-title">Registro</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Ingresa tus datos para ser parte de nuestra comunidad.
                         </h6>
-                        <div>
+                        <div class="my-5">
                             <form method="post" action="#">
                                 <div class="row gtr-50">
                                     <div class="col-6 col-12-small">
@@ -72,18 +72,21 @@
                                         <input name="Direccion" placeholder="Direccion" type="text" />
                                     </div>
                                     <div class="col-6 col-12-small">
-                                        <input name="date" placeholder="Fecha de Nacimiento" type="date" />
+                                        <input name="date" placeholder="Fecha de Nacimiento" type="date" class="input-date"  />
                                     </div>
-
+                                    <div class="col-6 col-12-small">
+                                        <input name="password" placeholder="Contraseña" type="text"/>
+                                    </div>
+                                    <div class="col-6 col-12-small">
+                                    </div>
                                 </div>
                                 <br>
                         </div>
-                        <div class="col-6 col-12-small">
-                            <input name="password" placeholder="Contraseña" type="text" />
-                        </div>
-                        <p class="message">¿Ya tienes una cuenta? <a href="#">Inicia sesión</a> </p>
+                        <p class="inicio-sesion">¿Ya tienes una cuenta? <a href="login.html" style="font-weight: 600; text-decoration: none; color: black;">Inicia sesión</a> </p>
                         <br>
-                        <a href="#" class="form-button-submit button solid">Registrar</a>
+                        <div class="d-flex justify-content-center" style="margin-top: 20px;">
+                            <a href="login.html" class="form-button-submit button solid btn-1" style="font-family: 'Montserrat', sans-serif; padding: 12px 350px;">Registrar</a>
+                        </div>
                     </div>
                 </div>
                 </form>
