@@ -7,7 +7,7 @@
 <html>
 
 <head>
-    <title>Inicio de sesión</title>
+    <title>Registro de Fundaciones</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -50,30 +50,31 @@
             <div>
                 <div class="card">
                     <div class="card-body">
-                        <div class="form">
-                            <div>
-                                <h2><strong>INGRESAR:</strong></h2>
-                            </div>
-                            <div>
-                                <h5>Completas los datos de acceso para iniciar sesion</h5>
-
-                            </div>
-
-                            <div>
-                                <form class="login-form">
-                                    <h4>Email</h4>
-                                    <input type="text" placeholder="username" />
-                                    <h4>Password</h4>
-                                    <input type="password" placeholder="password" />
-                                    <h4>olvidaste tu contraseña</h4>
-                                    <button>iniciar sesion</button>
-                                    <p class="message">¿No tienes una cuenta? <a href="registrar.html">Regístrate</a>
-                                    </p>
-                                </form>
-                            </div>
-
+                        <h5 class="card-title">Registro</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Ingresa tus datos para ser parte de nuestra comunidad.
+                        </h6>
+                        <div>
+                            <form method="post" action="#">
+                                <div class="row gtr-50">
+                                    <div class="col-6 col-12-small">
+                                        <input name="name" placeholder="Nombre Completo" type="text" />
+                                    </div>
+                                    <div class="col-6 col-12-small">
+                                        <input accept="application/pdf" name="upload" type="file" />
+                                    </div>
+                                    <div class="col-6 col-12-small">
+                                        <input name="NIT" placeholder="NIT" type="text" />
+                                    </div>
+                                    <div class="col-6 col-12-small">
+                                        <input name="Trayectoria" placeholder="Trayectoria" type="date" />
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <a href="#" class="form-button-submit button solid">Registrar</a>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
-
                     </div>
                 </div>
             </div>
