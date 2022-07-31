@@ -3256,3 +3256,33 @@ body .progress_inner__status .box_string {
 body .progress_inner input[type=radio] {
   display: none;
 }
+
+
+.narrow {
+  width: 100px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.fill {
+  object-fit: fill;
+}
+
+.contain {
+  object-fit: contain;
+}
+
+.cover {
+	object-fit: cover;
+	height: 350px;
+  padding: -20px;
+	padding-right: -10px;
+}
+
+.none {
+  object-fit: none;
+}
+
+.scale-down {
+  object-fit: scale-down;
+}
