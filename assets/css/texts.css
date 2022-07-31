@@ -90,6 +90,17 @@
     padding: 0px 20px;
 }
 
+.main-container-3 > div > h1 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2F6690;
+    padding: 0px 20px;
+}
+
 .main-container > p {
     font-family: 'Montserrat';
     font-style: normal;
@@ -122,4 +133,24 @@
     .main-container > p {
         padding: 10px 150px;
     }
+}
+
+.card-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #2F6690;
+}
+
+.card-subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
 }
